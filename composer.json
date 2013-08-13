@@ -1,0 +1,41 @@
+{
+    "name": "famelo/standalone",
+    "description" : "Expose Distribution without Neos",
+    "license": "GPL-3.0+",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:mneuhaus/TYPO3.Expose.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:mneuhaus/Famelo.Brain.git"
+        },
+        {
+            "type": "composer",
+            "url": "http://ci.typo3.robertlemke.net/job/composer-packages/ws/repository/"
+        }
+    ],
+    "config": {
+        "vendor-dir": "Packages/Libraries",
+        "bin-dir": "bin"
+    },
+    "require": {
+        "typo3/flow": "dev-master",
+        "typo3/expose": "dev-master",
+        "typo3/kickstart": "dev-master",
+        "famelo/vodoo": "*",
+        "knplabs/github-api": "*",
+        "nesbot/carbon": "*",
+        "famelo/brain": "*"
+    },
+    "require-dev": {
+        "typo3/buildessentials": "dev-master",
+        "mikey179/vfsstream": "1.1.*"
+    },
+    "minimum-stability": "dev",
+    "scripts": {
+        "post-update-cmd": "TYPO3\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+        "post-install-cmd": "TYPO3\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall"
+    }
+}

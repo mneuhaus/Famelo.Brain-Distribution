@@ -1,0 +1,24 @@
+/Build/
+/Configuration/
+/Data/
+/Packages/
+/Tests/Selenium/settings.xml
+/Web/
+/Readme.txt
+/Upgrading.txt
+/flow
+/flow.bat
+
+# ignore the downloaded selenium server, and the selenium
+# temporary directory (which starts with a quote, do not ask why...)
+Build/Resources/Java/selenium-server-standalone*
+/"
+composer.lock
+Configuration/Settings.yaml
+bdd-report.html
+/bin/behat
+/bin/classmap_generator.php
+/bin/doctrine
+/bin/doctrine.php
+/bin/selenium-server-standalone-2.28.0.jar
+/build.xml

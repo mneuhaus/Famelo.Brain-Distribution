@@ -1,0 +1,13 @@
+{
+	"TYPO3.Flow": {
+		"[WIP][FEATURE] Improve resolving of view": "16392"
+	},
+	"TYPO3.TypoScript": {
+		"[FEATURE] Refactored the inclusion of TypoScriptPathPattern to support multiple paths": "16394",
+		"[FEATURE] Value / Eel Expression / TypoScript-Object interoperability": "21003",
+		"[WIP][!!] TypoScript Objects are singletons": "22505"
+	},
+	"TYPO3.Fluid": {
+		"[FEATURE] Add various Setters to override Paths and Patterns": "16393"
+	}
+}

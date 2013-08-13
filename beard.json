@@ -1,0 +1,20 @@
+{
+    "defaults": {
+        "gerrit_api_endpoint": "https://review.typo3.org/",
+        "gerrit_git": "git.typo3.org"
+    },
+    "changes": [
+        {
+            "name": "[WIP][FEATURE] Automatically move generated migration to package",
+            "type": "gerrit",
+            "path": "Packages/Framework/TYPO3.Flow",
+            "change_id": "23068"
+        },
+        {
+            "name": "[FEATURE] Create an AccountInterface",
+            "type": "gerrit",
+            "path": "Packages/Framework/TYPO3.Flow",
+            "change_id": "23067"
+        }
+    ]
+}
