@@ -1,0 +1,20 @@
+#                                                                        #
+# Example Settings                                                       #
+#                                                                        #
+# This file contains settings for various parts of the application.      #
+# Copy this file to Settings.yaml, and adjust as necessary.              #
+#                                                                        #
+# Please refer to the default settings file(s) or the manuals for        #
+# possible configuration options.                                        #
+#                                                                        #
+
+TYPO3:
+  Flow:
+    persistence:
+      backendOptions:
+        host: 'mysql5.famelo.firma.cc'
+        dbname: 'db350350_15'
+        user: 'db350350_15'
+        password: '3GX14XmGm4'
+    core:
+      phpBinaryPathAndFilename: '/usr/local/bin/php5-54LATEST-CLI'

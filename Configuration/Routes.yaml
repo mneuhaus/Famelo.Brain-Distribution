@@ -1,0 +1,35 @@
+#                                                                        #
+# Routes configuration                                                   #
+#                                                                        #
+# This file contains the configuration for the MVC router.               #
+# Just add your own modifications as necessary.                          #
+#                                                                        #
+# Please refer to the FLOW3 manual for possible configuration options.   #
+#                                                                        #
+
+-
+  name: 'Home'
+  uriPattern: ''
+  defaults:
+    '@package':    'Famelo.Brain'
+    '@controller': 'Standard'
+    '@action':     'index'
+    '@format':     'html'
+  appendExceedingArguments: true
+
+-
+  name: 'Login'
+  uriPattern: 'login'
+  defaults:
+    '@package':    'Famelo.Brain'
+    '@controller': 'Login'
+    '@action':     'index'
+    '@format':     'html'
+  appendExceedingArguments: true
+
+-
+  name: 'Flow'
+  uriPattern: '<FlowSubroutes>'
+  subRoutes:
+    FlowSubroutes:
+      package: TYPO3.Flow

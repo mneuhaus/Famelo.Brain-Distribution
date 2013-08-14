@@ -27,7 +27,10 @@
         "famelo/vodoo": "*",
         "knplabs/github-api": "*",
         "nesbot/carbon": "*",
-        "famelo/brain": "*"
+        "famelo/brain": "*",
+        "rodneyrehm/plist": "*",
+        "typo3/surf": "*",
+        "famelo/surf-sharedhosting": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",
