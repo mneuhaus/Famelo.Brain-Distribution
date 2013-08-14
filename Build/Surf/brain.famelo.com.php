@@ -22,7 +22,8 @@ $application->setOption('defaultContext', 'Production');
 $application->setContext('Production');
 
 $workflow = new SimpleWorkflow();
-$workflow->setEnableRollback(FALSE);
+// Enable to keep "broken" deployment for aftermath analysis
+// $workflow->setEnableRollback(FALSE);
 
 $workflow->afterTask('typo3.surf:composer:install', array(
 	'famelo.surf.sharedhosting:downloadBeard',
